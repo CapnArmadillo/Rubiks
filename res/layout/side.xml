@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+>
+	<include layout="@layout/margin_bar" />
+    	<LinearLayout
+		android:id="@+id/row0"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell00"
+			android:onClick="action"
+			android:background="@color/ccRed"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell01"
+			android:onClick="action"
+			android:background="@color/ccRed"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell02"
+			android:onClick="action"
+			android:background="@color/ccRed"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+	</LinearLayout>
+	<include layout="@layout/margin_bar" />
+	<LinearLayout
+		android:id="@+id/row1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell10"
+			android:onClick="action"
+			android:background="@color/ccOrange"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell11"
+			android:onClick="action"
+			android:background="@color/ccOrange"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell12"
+			android:onClick="action"
+			android:background="@color/ccOrange"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+	</LinearLayout>
+	<include layout="@layout/margin_bar" />
+	<LinearLayout
+		android:id="@+id/row2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell20"
+			android:onClick="action"
+			android:background="@color/ccYellow"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell21"
+			android:onClick="action"
+			android:background="@color/ccYellow"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+		<LinearLayout
+			android:id="@+id/cell22"
+			android:onClick="action"
+			android:background="@color/ccYellow"
+			android:layout_width="@dimen/ddSquareSize"
+			android:layout_height="@dimen/ddSquareSize" />
+		<include layout="@layout/margin_bar_vertical" />
+	</LinearLayout>
+	<include layout="@layout/margin_bar" />
+</LinearLayout>

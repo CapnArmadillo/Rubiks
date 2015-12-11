@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateTop"
+			android:text="T"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateTopBack"
+			android:text="t"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="turnUp"
+			android:text="up"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateBottom"
+			android:text="D"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateBottomBack"
+			android:text="d"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout
+		android:id="@+id/linearLayoutNav"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<ImageView android:background="@drawable/ic_media_rew" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:onClick="turnLeft" />
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateLeft"
+			android:text="L"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateLeftBack"
+			android:text="l"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateRight"
+			android:text="R"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateRightBack"
+			android:text="r"
+		/>
+		<ImageView android:background="@drawable/ic_media_ff" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:onClick="turnRight" />
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateFront"
+			android:text="F"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateFrontBack"
+			android:text="f"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="turnDown"
+			android:text="dn"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateRear"
+			android:text="B"
+		/>
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="rotateRearBack"
+			android:text="b"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout
+		android:id="@+id/linearLayoutNav"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="reset"
+			android:text="Reset"
+		/>
+		<include layout="@layout/spacer" />
+		<Button 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="scramble"
+			android:text="Mix"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+</LinearLayout>

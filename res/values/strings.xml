@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, RubiksApp!</string>
+	<string name="app_name">Rubiks</string>
+
+	<color name="ccMargin">#000</color>
+
+	<color name="ccRed">#F00</color>
+	<color name="ccBlue">#00F</color>
+	<color name="ccYellow">#FF0</color>
+	<color name="ccOrange">#F80</color>
+	<color name="ccGreen">#0F0</color>
+	<color name="ccWhite">#FFF</color>
+
+	<dimen name="ddSquareSize">20dp</dimen>
+	
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.armadillo.rubik"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Menu"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".RubiksApp"
+			android:label="@string/app_name">
+		</activity>
+		<activity android:name=".tutorial.TutorialPartI"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cube.CubeView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cube.MeshView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.group.GroupView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.group.Cube2View"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.square.SquaresView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cone.ConeView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cone.CylinderView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cone.DrumView"
+			android:label="@string/app_name" />
+		<activity android:name=".tutorial.cone.LatheView"
+			android:label="@string/app_name" />
+				<activity android:name=".tutorial.cone.PyramidView"
+			android:label="@string/app_name" />
+		<activity android:name=".graph.ChartView"
+			android:label="@string/app_name" />
+	</application>
+
+</manifest>

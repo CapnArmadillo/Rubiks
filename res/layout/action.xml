@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+>
+	<include layout="@layout/spacer" />
+	<TextView  
+		android:id="@+id/hello"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:text="@string/hello"
+	/>
+	<include layout="@layout/spacer" /> 
+	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:onClick="reset"
+		android:text="Reset"
+	/>
+	<include layout="@layout/spacer" />
+	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:onClick="scramble"
+		android:text="Mix"
+	/>
+	<include layout="@layout/spacer" />
+	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:onClick="flower"
+		android:text="Flower"
+	/>
+	<include layout="@layout/spacer" />
+	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:onClick="twist"
+		android:text="Twist"
+	/>
+	<include layout="@layout/spacer" />
+	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:onClick="twist2"
+		android:text="Twist2"
+	/>
+	<include layout="@layout/spacer" />
+</LinearLayout>

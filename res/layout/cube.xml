@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/cube"
+>
+	<LinearLayout
+		android:id="@+id/linearLayoutTop"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:visibility="invisible" />
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side0" />
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout
+		android:id="@+id/linearLayoutMiddle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side4" />
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side1" />
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side2" />
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side3" />
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout
+		android:id="@+id/linearLayoutBottom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:visibility="invisible" />
+		<include layout="@layout/spacer" />
+		<include layout="@layout/side"	android:id="@+id/side5" />
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+</LinearLayout>

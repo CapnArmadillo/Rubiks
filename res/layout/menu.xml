@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+>
+	<include layout="@layout/spacer" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="rubiks"
+			android:text="Rubik's Cube"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="square"
+			android:text="Square"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="cube"
+			android:text="Cube"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="group"
+			android:text="Group"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="mesh"
+			android:text="Mesh"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="chart"
+			android:text="Chart"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="wideChart"
+			android:text="Chart1"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="chart2"
+			android:text="Chart2"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="chart3"
+			android:text="Chart3"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="chart4"
+			android:text="Chart4"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="cone"
+			android:text="Cone"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="cylinder"
+			android:text="Cylinder"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="drum"
+			android:text="Drum"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="pyramid"
+			android:text="Pyramid"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+	<include layout="@layout/spacer" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="d4"
+			android:text="d4"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="cube2"
+			android:text="d6"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="d8"
+			android:text="d8"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="d10"
+			android:text="d10"
+		/>
+		<include layout="@layout/spacer" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="d20"
+			android:text="d20"
+		/>
+		<include layout="@layout/spacer" />
+	</LinearLayout>
+</LinearLayout>
